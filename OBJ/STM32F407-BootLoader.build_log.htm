@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.30.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: vics zhaosonz, CQ, LIC=76F5U-S9B5S-NNQAF-63GN5-G29WT-SXL3G
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.30.0.0
+Toolchain Path:  D:\software\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.30.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TCM.DLL V1.42.0.0
+ 
+<h2>Project:</h2>
+F:\workSpace\STM32F407ZGT6-BootLoader\USER\STM32F407-BootLoader.uvprojx
+Project File Date:  10/25/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\software\Keil_v5\ARM\ARMCC\Bin'
+Build target 'STM32F407-BootLoader'
+compiling main.c...
+main.c(38): warning:  #870-D: invalid multibyte character sequence
+  				printf("‰ª£Á†ÅÈïøÂ∫¶Ôº?%dBytes\n",applen);
+main.c(14): warning:  #177-D: variable "datatemp"  was declared but never referenced
+  	u8 datatemp[SIZE];
+main.c(17): warning:  #177-D: variable "clearflag"  was declared but never referenced
+  	u8 clearflag = 0;
+main.c: 3 warnings, 0 errors
+compiling usart.c...
+..\SYSTEM\usart\usart.c(133): warning:  #550-D: variable "Res"  was set but never used
+  	u8 Res;
+..\SYSTEM\usart\usart.c: 1 warning, 0 errors
+linking...
+Program Size: Code=2964 RO-data=508 RW-data=32 ZI-data=126944  
+FromELF: creating hex file...
+"..\OBJ\STM32F407-BootLoader.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32F407-BootLoader
+  D:\software\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
